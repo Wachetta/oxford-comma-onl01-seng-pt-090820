@@ -7,7 +7,7 @@ elsif fruit.size == 3
   array.insert(-2,"and")
   array.join(", ")
 elsif fruit.size > 3
-fruit.to_sentence
+fruit.to_set
 else
   fruit[-1]
 end
