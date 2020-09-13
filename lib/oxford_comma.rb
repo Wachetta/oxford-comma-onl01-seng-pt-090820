@@ -5,3 +5,4 @@ fruit.join(" and ")
 if fruit == 3
   fruit.join(",")
 end
+end
