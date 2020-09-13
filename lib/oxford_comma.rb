@@ -1,7 +1,7 @@
 def oxford_comma(array)
 fruit = []
 array.each{|x| fruit << "#{x}"}
-if Array.count(3)
+if Array.count(2)
 puts fruit.join(" and ")
 end
 end
