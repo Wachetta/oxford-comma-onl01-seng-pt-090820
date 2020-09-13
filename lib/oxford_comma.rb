@@ -6,7 +6,6 @@ fruit.join(" and ")
 elsif fruit.size == 3
   array.each{|x| fruit << ", "}
   fruit << "and"
-
 else
   fruit[-1]
 end
