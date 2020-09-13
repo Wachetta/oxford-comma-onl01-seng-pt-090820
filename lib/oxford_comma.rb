@@ -3,4 +3,3 @@ fruit = []
 array.each{|x| fruit << "#{x}"}
 fruit.join(" and ")
 end
-end
