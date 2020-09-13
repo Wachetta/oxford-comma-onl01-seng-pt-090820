@@ -10,7 +10,7 @@ elsif fruit.size == 3
 elsif fruit.size > 3
   array.join(", ")
   array.insert(-2,"and")
-  
+
 else
   fruit[-1]
 end
