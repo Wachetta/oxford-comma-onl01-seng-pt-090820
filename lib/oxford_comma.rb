@@ -7,7 +7,7 @@ elsif fruit.size == 3
   array.each{|x| fruit << ", "}
   array.insert(-2,"and")
 elsif fruit.size > 3
-  
+
 else
   fruit[-1]
 end
