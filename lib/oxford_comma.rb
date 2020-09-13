@@ -4,5 +4,6 @@ array.each{|x| fruit << "#{x}"}
 fruit.join(" and ")
 if fruit == 3
   fruit.join(",")
+else fruit
 end
 end
