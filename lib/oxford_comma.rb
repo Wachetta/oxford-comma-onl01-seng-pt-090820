@@ -5,7 +5,6 @@ if fruit.size == 2
 fruit.join(" and ")
 elsif fruit.size == 3
   array.each{|x| fruit << ", "}
-  array.reject(-2)
   array.insert(-2,"and")
 elsif fruit.size > 3
   array.each{|x| fruit << ", "}
