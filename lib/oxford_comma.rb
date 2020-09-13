@@ -5,7 +5,7 @@ if fruit.size == 2
 fruit.join(" and ")
 elsif fruit.size == 3
   array.insert(-2,"and")
-  array.join(", ") until -2
+  array.join(", ")
 elsif fruit.size > 3
   array.join(", ")
   array.insert(-2,"and")
