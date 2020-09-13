@@ -1,5 +1,5 @@
 def oxford_comma(array)
-fruit = ["kiwi"]
+fruit = []
 array.each{|x| fruit << "#{x}"}
 fruit.join(" and ")
 end
