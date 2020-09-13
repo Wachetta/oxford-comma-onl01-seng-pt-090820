@@ -7,7 +7,8 @@ elsif fruit.size == 3
   array [-1] = "and " + array [-1]
   array.join(", ")
 elsif fruit.size > 3
-
+  array [-1] = "and " + array [-1]
+  array.join(", ")
 else
   fruit[-1]
 end
