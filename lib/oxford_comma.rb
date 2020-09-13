@@ -4,5 +4,7 @@ array.each{|x| fruit << "#{x}"}
 fruit.join(" and ")
 if fruit.size == 3
   fruit.join(", ")
+else
+  fruit
 end
 end
