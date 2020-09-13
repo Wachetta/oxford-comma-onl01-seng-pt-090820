@@ -5,10 +5,12 @@ if fruit.size == 2
 fruit.join(" and ")
 elsif fruit.size == 3
   array.insert(-2,"and")
-  array.join(" ")
+  array.join(", ")
+while input != "and"
+  break
 elsif fruit.size > 3
   array.insert(-2,"and")
-  array.join(" ")
+  array.join(", ")
 else
   fruit[-1]
 end
