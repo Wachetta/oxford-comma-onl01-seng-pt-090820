@@ -6,7 +6,7 @@ fruit.join(" and ")
 elsif fruit.size == 3
   array.insert(-2,"and")
   array.join(", ")
-while input != "and"
+  input != "and"
   break
 end
 elsif fruit.size > 3
